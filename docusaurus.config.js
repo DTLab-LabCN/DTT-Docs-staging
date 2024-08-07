@@ -21,7 +21,7 @@ const config = {
   url: process.env.DTT_DOCS_URL,
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: process.env.DTT_DOCS_BASE_PATH,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
